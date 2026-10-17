@@ -1,0 +1,100 @@
+[
+  {
+    "fn": "boxTruth",
+    "args": [
+      1
+    ],
+    "result": "1 cat asks 2 litter boxes honestly."
+  },
+  {
+    "fn": "boxTruth",
+    "args": [
+      2
+    ],
+    "result": "2 cats ask 3 litter boxes honestly."
+  },
+  {
+    "fn": "boxTruth",
+    "args": [
+      4
+    ],
+    "result": "4 cats ask 5 litter boxes honestly."
+  },
+  {
+    "fn": "boxTruth",
+    "args": [
+      0
+    ],
+    "error": "the cat count must be above zero"
+  },
+  {
+    "fn": "litterTruth",
+    "args": [
+      1
+    ],
+    "result": "1 cat goes through 20.0 pounds a month, 0.5 of a 40-pound bag honestly."
+  },
+  {
+    "fn": "litterTruth",
+    "args": [
+      2
+    ],
+    "result": "2 cats go through 40.0 pounds a month, 1.0 of a 40-pound bag honestly."
+  },
+  {
+    "fn": "litterTruth",
+    "args": [
+      3
+    ],
+    "result": "3 cats go through 60.0 pounds a month, 1.5 of a 40-pound bag honestly."
+  },
+  {
+    "fn": "litterTruth",
+    "args": [
+      0
+    ],
+    "error": "the cat count must be above zero"
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      2.5
+    ],
+    "result": "2.5 inches of litter reads right in the sweet spot honestly."
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      1.5
+    ],
+    "result": "1.5 inches of litter reads too shallow to bury, and the smells win honestly."
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      2
+    ],
+    "result": "2.0 inches of litter reads right in the sweet spot honestly."
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      3
+    ],
+    "result": "3.0 inches of litter reads right in the sweet spot honestly."
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      4
+    ],
+    "result": "4.0 inches of litter reads deep enough to waste and track honestly."
+  },
+  {
+    "fn": "depthTruth",
+    "args": [
+      0
+    ],
+    "error": "the depth must be above zero"
+  }
+]
